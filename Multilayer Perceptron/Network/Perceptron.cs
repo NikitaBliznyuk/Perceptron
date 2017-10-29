@@ -13,7 +13,7 @@ namespace MultilayerPerceptron.Network
         private readonly Link[] outputLinks;
 
         private const double MaxErrorValue = 0.01;
-        private const int maxCount = 100000;
+        private const int maxCount = 2000000;
 
         private double[] idealOutput;
 

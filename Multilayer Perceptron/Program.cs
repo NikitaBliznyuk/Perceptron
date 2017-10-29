@@ -7,54 +7,63 @@ namespace MultilayerPerceptron
     {
         public static void Main(string[] args)
         {
-            Perceptron perceptron = new Perceptron(2, 2, 1);
+            CharGenerator charGenerator = new CharGenerator();
+            Perceptron perceptron = new Perceptron(36, 6, 5);
             int count = perceptron.Teach(new[]
             {
                 new TeachVector
                 {
-                    Input = new[] {0, 0},
-                    Output = new[] {0.0}
+                    Input = charGenerator.Get2(),
+                    Output = new[] {1.0, 0.0, 0.0, 0.0, 0.0}
                 },
                 new TeachVector
                 {
-                    Input = new[] {0, 1},
-                    Output = new[] {1.0}
+                    Input = charGenerator.Get3(),
+                    Output = new[] {0.0, 1.0, 0.0, 0.0, 0.0}
                 },
                 new TeachVector
                 {
-                    Input = new[] {1, 0},
-                    Output = new[] {1.0}
+                    Input = charGenerator.Get4(),
+                    Output = new[] {0.0, 0.0, 1.0, 0.0, 0.0}
                 },
                 new TeachVector
                 {
-                    Input = new[] {1, 1},
-                    Output = new[] {0.0}
+                    Input = charGenerator.Get5(),
+                    Output = new[] {0.0, 0.0, 0.0, 1.0, 0.0}
+                },
+                new TeachVector
+                {
+                    Input = charGenerator.Get7(),
+                    Output = new[] {0.0, 0.0, 0.0, 0.0, 1.0}
                 }
             }, 0.5, 0.5);
             Console.WriteLine(count);
 
-            perceptron.Test(new[] {0, 1});
+            perceptron.Test(charGenerator.Get_noized(charGenerator.Get2(), 5));
             foreach (var perceptronOutputLink in perceptron.OutputLinks)
             {
-                Console.WriteLine(perceptronOutputLink.Output);
+                Console.Write(perceptronOutputLink.Output.ToString("0.00") + "  ");
             }
-
-            perceptron.Test(new[] {1, 1});
+            
+            Console.WriteLine();
+            perceptron.Test(charGenerator.Get_noized(charGenerator.Get5(), 2));
             foreach (var perceptronOutputLink in perceptron.OutputLinks)
             {
-                Console.WriteLine(perceptronOutputLink.Output);
+                Console.Write(perceptronOutputLink.Output.ToString("0.00") + "  ");
             }
-
-            perceptron.Test(new[] {1, 0});
+            
+            Console.WriteLine();
+            perceptron.Test(charGenerator.Get_noized(charGenerator.Get7(), 12));
             foreach (var perceptronOutputLink in perceptron.OutputLinks)
             {
-                Console.WriteLine(perceptronOutputLink.Output);
+                Console.Write(perceptronOutputLink.Output.ToString("0.00") + "  ");
             }
-
-            perceptron.Test(new[] {0, 0});
+            
+            Console.WriteLine();
+            perceptron.Test(charGenerator.Get_noized(charGenerator.Get3(), 20));
             foreach (var perceptronOutputLink in perceptron.OutputLinks)
             {
-                Console.WriteLine(perceptronOutputLink.Output);
+                Console.Write(perceptronOutputLink.Output.ToString("0.00") + "  ");
             }
         }
     }

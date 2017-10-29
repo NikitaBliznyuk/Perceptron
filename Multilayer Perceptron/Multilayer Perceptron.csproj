@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CharGenerator.cs" />
     <Compile Include="Network\Link.cs" />
     <Compile Include="Network\Neuron.cs" />
     <Compile Include="Network\Perceptron.cs" />
