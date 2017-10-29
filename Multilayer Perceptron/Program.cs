@@ -6,7 +6,7 @@ namespace MultilayerPerceptron
     {
         public static void Main(string[] args)
         {
-            Perceptron perceptron = new Perceptron(4, 4, 2);
+            Perceptron perceptron = new Perceptron(3, 4, 2);
         }
     }
 }

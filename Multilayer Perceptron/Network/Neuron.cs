@@ -16,6 +16,18 @@ namespace MultilayerPerceptron.Network
             inputLinks = new List<Link>();
             outputLinks = new List<Link>();
         }
+
+        public static Neuron[] GetNeuronArray(int count)
+        {
+            Neuron[] neurons = new Neuron[count];
+
+            for (int i = 0; i < neurons.Length; i++)
+            {
+                neurons[i] = new Neuron();
+            }
+            
+            return neurons;
+        }
         
         public enum LinkType {Input, Output}
 
@@ -37,6 +49,7 @@ namespace MultilayerPerceptron.Network
         public void Teach(double weightDelta, double threasholdDelta)
         {
             threshold += threasholdDelta;
+            inputLinks.ForEach(link => link.Teach(weightDelta));
         }
 
         public double GetValue()

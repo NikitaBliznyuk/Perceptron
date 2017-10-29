@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e6a2276-60e5-4763-8ea8-a47693a90873" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.Multilayer Perceptron/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Multilayer Perceptron/Network/Link.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.Multilayer Perceptron/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Multilayer Perceptron/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Multilayer Perceptron/Multilayer Perceptron.csproj" afterPath="$PROJECT_DIR$/Multilayer Perceptron/Multilayer Perceptron.csproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Multilayer Perceptron/Network/Link.cs" afterPath="$PROJECT_DIR$/Multilayer Perceptron/Network/Link.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Multilayer Perceptron/Network/Neuron.cs" afterPath="$PROJECT_DIR$/Multilayer Perceptron/Network/Neuron.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Multilayer Perceptron/Network/Perceptron.cs" afterPath="$PROJECT_DIR$/Multilayer Perceptron/Network/Perceptron.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Multilayer Perceptron/Program.cs" afterPath="$PROJECT_DIR$/Multilayer Perceptron/Program.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,50 +17,59 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Multilayer Perceptron/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+            <state relative-caret-position="152">
+              <caret line="8" column="60" lean-forward="false" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
               <folding>
-                <marker date="1509272700162" expanded="true" signature="67:238" ph="{...}" />
-                <marker date="1509272700162" expanded="true" signature="96:236" ph="{...}" />
-                <marker date="1509272700162" expanded="true" signature="149:230" ph="{...}" />
+                <marker date="1509282909485" expanded="true" signature="67:238" ph="{...}" />
+                <marker date="1509282909485" expanded="true" signature="96:236" ph="{...}" />
+                <marker date="1509282909485" expanded="true" signature="149:230" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Perceptron.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Perceptron.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Multilayer Perceptron/Network/Perceptron.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+            <state relative-caret-position="76">
+              <caret line="4" column="47" lean-forward="true" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
               <folding>
-                <marker date="1509269821879" expanded="true" signature="38:224" ph="{...}" />
-                <marker date="1509269821879" expanded="true" signature="68:222" ph="{...}" />
-                <marker date="1509269821879" expanded="true" signature="183:216" ph="{...}" />
+                <marker date="1509283470585" expanded="true" signature="38:2256" ph="{...}" />
+                <marker date="1509283470585" expanded="true" signature="68:2254" ph="{...}" />
+                <marker date="1509283470585" expanded="true" signature="428:2248" ph="{...}" />
+                <marker date="1509283470585" expanded="true" signature="1089:1390" ph="{...}" />
+                <marker date="1509283470585" expanded="true" signature="1247:1376" ph="{...}" />
+                <marker date="1509283470585" expanded="true" signature="1452:1870" ph="{...}" />
+                <marker date="1509283470585" expanded="true" signature="1530:1659" ph="{...}" />
+                <marker date="1509283470585" expanded="true" signature="1725:1856" ph="{...}" />
+                <marker date="1509283470585" expanded="true" signature="1932:2238" ph="{...}" />
+                <marker date="1509283470585" expanded="true" signature="2011:2141" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Neuron.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Neuron.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Multilayer Perceptron/Network/Neuron.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="38" column="41" lean-forward="true" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+            <state relative-caret-position="266">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
-                <marker date="1509277820451" expanded="true" signature="6:95" ph="..." />
-                <marker date="1509277820451" expanded="true" signature="135:1347" ph="{...}" />
-                <marker date="1509277820451" expanded="true" signature="161:1345" ph="{...}" />
-                <marker date="1509277820451" expanded="true" signature="323:430" ph="{...}" />
-                <marker date="1509277820451" expanded="true" signature="543:922" ph="{...}" />
-                <marker date="1509277820451" expanded="true" signature="583:912" ph="{...}" />
-                <marker date="1509277820451" expanded="true" signature="993:1055" ph="{...}" />
-                <marker date="1509277820451" expanded="true" signature="1089:1223" ph="{...}" />
-                <marker date="1509277820451" expanded="true" signature="1266:1339" ph="{...}" />
+                <marker date="1509278596602" expanded="true" signature="6:95" ph="..." />
+                <marker date="1509278596602" expanded="true" signature="135:1706" ph="{...}" />
+                <marker date="1509278596602" expanded="true" signature="161:1704" ph="{...}" />
+                <marker date="1509278596602" expanded="true" signature="323:430" ph="{...}" />
+                <marker date="1509278596602" expanded="true" signature="488:724" ph="{...}" />
+                <marker date="1509278596602" expanded="true" signature="602:673" ph="{...}" />
+                <marker date="1509278596602" expanded="true" signature="837:1216" ph="{...}" />
+                <marker date="1509278596602" expanded="true" signature="877:1206" ph="{...}" />
+                <marker date="1509278596602" expanded="true" signature="1287:1414" ph="{...}" />
+                <marker date="1509278596602" expanded="true" signature="1448:1582" ph="{...}" />
+                <marker date="1509278596602" expanded="true" signature="1625:1698" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -69,11 +78,16 @@
       <file leaf-file-name="Link.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Multilayer Perceptron/Network/Link.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+            <state relative-caret-position="399">
+              <caret line="21" column="12" lean-forward="false" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
               <folding>
-                <marker date="1509277623135" expanded="true" signature="38:217" ph="{...}" />
-                <marker date="1509277623135" expanded="true" signature="62:215" ph="{...}" />
+                <marker date="1509283456109" expanded="true" signature="38:903" ph="{...}" />
+                <marker date="1509283456109" expanded="true" signature="62:901" ph="{...}" />
+                <marker date="1509283456109" expanded="true" signature="244:307" ph="{...}" />
+                <marker date="1509283456109" expanded="true" signature="361:583" ph="{...}" />
+                <marker date="1509283456109" expanded="true" signature="467:534" ph="{...}" />
+                <marker date="1509283456109" expanded="true" signature="661:895" ph="{...}" />
+                <marker date="1509283456109" expanded="true" signature="764:846" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -93,10 +107,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Multilayer Perceptron/Network/Perceptron.cs" />
+        <option value="$PROJECT_DIR$/Multilayer Perceptron/Network/Neuron.cs" />
         <option value="$PROJECT_DIR$/Multilayer Perceptron/Program.cs" />
         <option value="$PROJECT_DIR$/Multilayer Perceptron/Network/Link.cs" />
-        <option value="$PROJECT_DIR$/Multilayer Perceptron/Network/Neuron.cs" />
+        <option value="$PROJECT_DIR$/Multilayer Perceptron/Network/Perceptron.cs" />
       </list>
     </option>
   </component>
@@ -140,28 +154,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Multilayer Perceptron (1 project)" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Multilayer Perceptron" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Multilayer Perceptron (1 project)" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Multilayer Perceptron" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Network" />
               <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
           </PATH>
@@ -219,6 +211,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -242,10 +240,10 @@
       <method />
     </configuration>
     <configuration default="false" name="Default" type="DotNetProject" factoryName=".NET Project">
-      <option name="PROJECT_PATH" value="" />
-      <option name="PROJECT_KIND" value="None" />
-      <option name="PROJECT_TFM" value="" />
-      <option name="EXE_PATH" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Multilayer Perceptron/Multilayer Perceptron.csproj" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.5" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Multilayer Perceptron/bin/Debug/MultilayerPerceptron.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="USE_MONO" value="0" />
@@ -267,12 +265,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1509268901972</updated>
-      <workItem from="1509268906285" duration="5850000" />
+      <workItem from="1509268906285" duration="9167000" />
+      <workItem from="1509283117823" duration="492000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5850000" />
+    <option name="totallyTimeSpent" value="9659000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -288,24 +287,25 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39958376" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -316,59 +316,142 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Multilayer Perceptron/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1509272700162" expanded="true" signature="67:238" ph="{...}" />
-            <marker date="1509272700162" expanded="true" signature="96:236" ph="{...}" />
-            <marker date="1509272700162" expanded="true" signature="149:230" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Multilayer Perceptron/Network/Link.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-          <folding>
-            <marker date="1509277623135" expanded="true" signature="38:217" ph="{...}" />
-            <marker date="1509277623135" expanded="true" signature="62:215" ph="{...}" />
+            <marker date="1509282909485" expanded="true" signature="67:238" ph="{...}" />
+            <marker date="1509282909485" expanded="true" signature="96:236" ph="{...}" />
+            <marker date="1509282909485" expanded="true" signature="149:230" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Multilayer Perceptron/Network/Perceptron.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        <state relative-caret-position="1007">
+          <caret line="53" column="9" lean-forward="true" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
           <folding>
-            <marker date="1509269821879" expanded="true" signature="38:224" ph="{...}" />
-            <marker date="1509269821879" expanded="true" signature="68:222" ph="{...}" />
-            <marker date="1509269821879" expanded="true" signature="183:216" ph="{...}" />
+            <marker date="1509283470585" expanded="true" signature="38:2256" ph="{...}" />
+            <marker date="1509283470585" expanded="true" signature="68:2254" ph="{...}" />
+            <marker date="1509283470585" expanded="true" signature="428:2248" ph="{...}" />
+            <marker date="1509283470585" expanded="true" signature="1089:1390" ph="{...}" />
+            <marker date="1509283470585" expanded="true" signature="1247:1376" ph="{...}" />
+            <marker date="1509283470585" expanded="true" signature="1452:1870" ph="{...}" />
+            <marker date="1509283470585" expanded="true" signature="1530:1659" ph="{...}" />
+            <marker date="1509283470585" expanded="true" signature="1725:1856" ph="{...}" />
+            <marker date="1509283470585" expanded="true" signature="1932:2238" ph="{...}" />
+            <marker date="1509283470585" expanded="true" signature="2011:2141" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Multilayer Perceptron/Network/Neuron.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="38" column="41" lean-forward="true" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+        <state relative-caret-position="1064">
+          <caret line="56" column="76" lean-forward="false" selection-start-line="56" selection-start-column="76" selection-end-line="56" selection-end-column="76" />
           <folding>
-            <marker date="1509277820451" expanded="true" signature="6:95" ph="..." />
-            <marker date="1509277820451" expanded="true" signature="135:1347" ph="{...}" />
-            <marker date="1509277820451" expanded="true" signature="161:1345" ph="{...}" />
-            <marker date="1509277820451" expanded="true" signature="323:430" ph="{...}" />
-            <marker date="1509277820451" expanded="true" signature="543:922" ph="{...}" />
-            <marker date="1509277820451" expanded="true" signature="583:912" ph="{...}" />
-            <marker date="1509277820451" expanded="true" signature="993:1055" ph="{...}" />
-            <marker date="1509277820451" expanded="true" signature="1089:1223" ph="{...}" />
-            <marker date="1509277820451" expanded="true" signature="1266:1339" ph="{...}" />
+            <marker date="1509278596602" expanded="true" signature="6:95" ph="..." />
+            <marker date="1509278596602" expanded="true" signature="135:1706" ph="{...}" />
+            <marker date="1509278596602" expanded="true" signature="161:1704" ph="{...}" />
+            <marker date="1509278596602" expanded="true" signature="323:430" ph="{...}" />
+            <marker date="1509278596602" expanded="true" signature="488:724" ph="{...}" />
+            <marker date="1509278596602" expanded="true" signature="602:673" ph="{...}" />
+            <marker date="1509278596602" expanded="true" signature="837:1216" ph="{...}" />
+            <marker date="1509278596602" expanded="true" signature="877:1206" ph="{...}" />
+            <marker date="1509278596602" expanded="true" signature="1287:1414" ph="{...}" />
+            <marker date="1509278596602" expanded="true" signature="1448:1582" ph="{...}" />
+            <marker date="1509278596602" expanded="true" signature="1625:1698" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Multilayer Perceptron/Network/Link.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="38" lean-forward="false" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+          <folding>
+            <marker date="1509283456109" expanded="true" signature="38:903" ph="{...}" />
+            <marker date="1509283456109" expanded="true" signature="62:901" ph="{...}" />
+            <marker date="1509283456109" expanded="true" signature="244:307" ph="{...}" />
+            <marker date="1509283456109" expanded="true" signature="361:583" ph="{...}" />
+            <marker date="1509283456109" expanded="true" signature="467:534" ph="{...}" />
+            <marker date="1509283456109" expanded="true" signature="661:895" ph="{...}" />
+            <marker date="1509283456109" expanded="true" signature="764:846" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Multilayer Perceptron/Network/Link.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="12" lean-forward="false" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+          <folding>
+            <marker date="1509283456109" expanded="true" signature="38:903" ph="{...}" />
+            <marker date="1509283456109" expanded="true" signature="62:901" ph="{...}" />
+            <marker date="1509283456109" expanded="true" signature="244:307" ph="{...}" />
+            <marker date="1509283456109" expanded="true" signature="361:583" ph="{...}" />
+            <marker date="1509283456109" expanded="true" signature="467:534" ph="{...}" />
+            <marker date="1509283456109" expanded="true" signature="661:895" ph="{...}" />
+            <marker date="1509283456109" expanded="true" signature="764:846" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Multilayer Perceptron/Network/Neuron.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <marker date="1509278596602" expanded="true" signature="6:95" ph="..." />
+            <marker date="1509278596602" expanded="true" signature="135:1706" ph="{...}" />
+            <marker date="1509278596602" expanded="true" signature="161:1704" ph="{...}" />
+            <marker date="1509278596602" expanded="true" signature="323:430" ph="{...}" />
+            <marker date="1509278596602" expanded="true" signature="488:724" ph="{...}" />
+            <marker date="1509278596602" expanded="true" signature="602:673" ph="{...}" />
+            <marker date="1509278596602" expanded="true" signature="837:1216" ph="{...}" />
+            <marker date="1509278596602" expanded="true" signature="877:1206" ph="{...}" />
+            <marker date="1509278596602" expanded="true" signature="1287:1414" ph="{...}" />
+            <marker date="1509278596602" expanded="true" signature="1448:1582" ph="{...}" />
+            <marker date="1509278596602" expanded="true" signature="1625:1698" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Multilayer Perceptron/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="60" lean-forward="false" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+          <folding>
+            <marker date="1509282909485" expanded="true" signature="67:238" ph="{...}" />
+            <marker date="1509282909485" expanded="true" signature="96:236" ph="{...}" />
+            <marker date="1509282909485" expanded="true" signature="149:230" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Multilayer Perceptron/Network/Perceptron.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="47" lean-forward="true" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+          <folding>
+            <marker date="1509283470585" expanded="true" signature="38:2256" ph="{...}" />
+            <marker date="1509283470585" expanded="true" signature="68:2254" ph="{...}" />
+            <marker date="1509283470585" expanded="true" signature="428:2248" ph="{...}" />
+            <marker date="1509283470585" expanded="true" signature="1089:1390" ph="{...}" />
+            <marker date="1509283470585" expanded="true" signature="1247:1376" ph="{...}" />
+            <marker date="1509283470585" expanded="true" signature="1452:1870" ph="{...}" />
+            <marker date="1509283470585" expanded="true" signature="1530:1659" ph="{...}" />
+            <marker date="1509283470585" expanded="true" signature="1725:1856" ph="{...}" />
+            <marker date="1509283470585" expanded="true" signature="1932:2238" ph="{...}" />
+            <marker date="1509283470585" expanded="true" signature="2011:2141" ph="{...}" />
           </folding>
         </state>
       </provider>

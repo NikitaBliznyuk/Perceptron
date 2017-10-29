@@ -1,0 +1,6 @@
+D:\Projects\BSUIR\TSOSI\Lab 5\Multilayer Perceptron\Multilayer Perceptron\bin\Debug\MultilayerPerceptron.exe
+D:\Projects\BSUIR\TSOSI\Lab 5\Multilayer Perceptron\Multilayer Perceptron\bin\Debug\MultilayerPerceptron.pdb
+D:\Projects\BSUIR\TSOSI\Lab 5\Multilayer Perceptron\Multilayer Perceptron\obj\Debug\Multilayer Perceptron.csprojResolveAssemblyReference.cache
+D:\Projects\BSUIR\TSOSI\Lab 5\Multilayer Perceptron\Multilayer Perceptron\obj\Debug\Multilayer Perceptron.csproj.CoreCompileInputs.cache
+D:\Projects\BSUIR\TSOSI\Lab 5\Multilayer Perceptron\Multilayer Perceptron\obj\Debug\MultilayerPerceptron.exe
+D:\Projects\BSUIR\TSOSI\Lab 5\Multilayer Perceptron\Multilayer Perceptron\obj\Debug\MultilayerPerceptron.pdb
