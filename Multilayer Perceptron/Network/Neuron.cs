@@ -7,23 +7,35 @@ namespace MultilayerPerceptron.Network
 {
     public class Neuron
     {
-        private readonly List<Link> inputLinks;
-        private readonly List<Link> outputLinks;
         private double threshold;
+        
+        public double Value { get; private set; }
 
-        public Neuron()
+        public List<Link> InputLinks { get; }
+        public List<Link> OutputLinks { get; }
+
+        private NeuronType type;
+        
+        public enum NeuronType
         {
-            inputLinks = new List<Link>();
-            outputLinks = new List<Link>();
+            Standart, Distributive
         }
 
-        public static Neuron[] GetNeuronArray(int count)
+        public Neuron(NeuronType type)
+        {
+            this.type = type;
+            
+            InputLinks = new List<Link>();
+            OutputLinks = new List<Link>();
+        }
+
+        public static Neuron[] GetNeuronArray(int count, NeuronType type)
         {
             Neuron[] neurons = new Neuron[count];
 
             for (int i = 0; i < neurons.Length; i++)
             {
-                neurons[i] = new Neuron();
+                neurons[i] = new Neuron(type);
             }
             
             return neurons;
@@ -36,31 +48,37 @@ namespace MultilayerPerceptron.Network
             switch (linkType)
             {
                 case LinkType.Input:
-                    inputLinks.Add(link);
+                    InputLinks.Add(link);
                     break;
                 case LinkType.Output:
-                    outputLinks.Add(link);
+                    OutputLinks.Add(link);
                     break;
                 default:
                     throw new InvalidEnumArgumentException();
             }
         }
 
-        public void Teach(double weightDelta, double threasholdDelta)
+        public void Teach(double delta)
         {
-            threshold += threasholdDelta;
-            inputLinks.ForEach(link => link.Teach(weightDelta));
+            threshold += delta;
+            InputLinks.ForEach(link => link.Teach(delta));
         }
 
-        public double GetValue()
+        public void Process()
         {
-            double result = inputLinks.Sum(link => link.Output) + threshold;
-            return Activate(result);
+            Value = GetValue();
+            OutputLinks.ForEach(link => link.Input = Value);
+        }
+
+        private double GetValue()
+        {
+            double result = InputLinks.Sum(link => link.Output) + threshold;
+            return type == NeuronType.Standart ? Activate(result) : result;
         }
 
         private double Activate(double x)
         {
-            return 1.0 / (1 + Math.Pow(Math.E, -x));
+            return 1.0 / (1.0 + Math.Pow(Math.E, -x));
         }
     }
 }
